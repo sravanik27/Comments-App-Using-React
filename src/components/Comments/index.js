@@ -1,3 +1,10 @@
+import {Component} from 'react'
+import {v4} from 'uuid'
+
+import CommentItem from '../CommentItem'
+
+import './index.css'
+
 const initialContainerBackgroundClassNames = [
   'amber',
   'blue',

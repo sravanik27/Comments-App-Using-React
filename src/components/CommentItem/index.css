@@ -1,3 +1,23 @@
+.comment-item {
+  list-style-type: none;
+}
+
+.comment-container {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
 .amber {
   background-color: #f59e0b;
 }
@@ -25,8 +45,6 @@
 .light-blue {
   background-color: #0ea5e9;
 }
-
-/* Write your CSS here */
 
 .initial {
   color: #ffffff;
